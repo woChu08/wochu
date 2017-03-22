@@ -24,9 +24,11 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 		controller:'weekctrl'
 	})
 	.state('detail', {
-		url : '/detail',
-		templateUrl : './classify/detail.html'
+		url : '/detail/:id',
+		templateUrl : './classify/detail.html',
+		controller:"detailCtrl"
 	})
+
 	.state('cart', {
 		url : '/cart',
 		templateUrl : './cart/cart.html'

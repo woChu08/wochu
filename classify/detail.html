@@ -1,15 +1,15 @@
 <link rel="stylesheet" type="text/css" href="./classify/css/detail.css" />
 <div class="detail-top">
-	<img src="./classify/imgs/20170320204502.jpg" alt="" />
+	<img src="{{ id.picUrl }}" alt="" />
 	<div class="fanhui" ui-sref="weekoffer">
 
 	</div>
 </div>
 <div class="base-info">
-	<p>外婆家酱鸭腿200g</p>
-	<div class="twoline">零食下酒 外婆家的味道 难忘的味道</div>
-	<span class="goods-price">￥ 12.9</span>
-	<span class="goods-old-price">￥ 19.9</span>
+	<p>{{ id.goodsName }}</p>
+	<div class="twoline">{{ id.description }}</div>
+	<span class="goods-price">￥ {{id.price}}</span>
+	<span class="goods-old-price">￥ {{ id.marketPrice}} </span>
 	<div class="num">
 		<a class="jia" href=""><img src="./classify/imgs/btn_add_down.png" /></a>
 		<span class="number">1</span>
@@ -23,7 +23,7 @@
 <div class="address">
 	<table border="0" cellspacing="0" cellpadding="0">
 		<tr>
-			<td><span>品名:</span>外婆家酱鸭腿200g</td>
+			<td><span>品名:</span>{{ id.goodsName }}</td>
 		</tr>
 		<tr>
 			<td><span>产地:</span>浙江绍兴</td>

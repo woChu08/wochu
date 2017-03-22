@@ -9,8 +9,8 @@
 			<p>本周特惠产品</p>
 		</div>
 		<div class="week-banner">
-			<figure ng-repeat="item in data">
-				<a ui-sref="detail"><img class="mainimg" src="{{ item.picUrl }}" /></a>
+			<figure ng-repeat="item in data" ng-click="showDetail()" >
+				<img class="mainimg" src="{{ item.picUrl }}" />
 				<figcaption>
 					<p>{{ item.goodsName }}</p>
 					<b>￥{{ item.price }}</b>
