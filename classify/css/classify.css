@@ -1,0 +1,145 @@
+body{
+	width: 10.0rem;
+}
+
+/*topSearch*/
+.topSearch{
+	background-color: #fff;
+	height: 1.140473rem;
+	text-align: center;
+
+}
+.topSearch input{
+	width: 9.471488rem;
+	height: 0.77886rem;
+	background:url(../imgs/top_search.jpg) no-repeat 0.15299rem center;
+	border-radius: 0.38943rem;
+	background-color: #f1f2f6;
+	margin: 0.194715rem auto;
+	background-size: 0.472879rem 0.472879rem;
+	border:none;
+    outline:medium;
+    text-indent: 0.834492rem;
+}
+
+/*main*/
+.main{
+	height: 14.804868rem;
+	background-color: #f4f5f7;
+	border-top: 0.027816rem solid #efefef;
+}
+.main .menu{
+	float: left;
+	height: 14.804868rem;
+	overflow-y: scroll;
+	margin-right: 0.250348rem;
+}
+.main .menu .menuClick{
+	color: #f18a3f;
+	background-image: url(../imgs/menu_click.jpg);
+	background-color: #f4f5f7;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 0.139082rem 0.556328rem;
+}
+.main .menu li{
+	height: 1.319555rem;
+	text-align: center;
+	line-height: 1.279555rem;
+	font-size: 0.38943rem;
+	width: 2.141864rem;
+	background-color: #fff;
+	border-bottom: 0.027816rem solid #ededed;
+}
+
+/*content*/
+.main .content{
+	float: left;
+	width: 7.343533rem;
+	margin-top: 0.15299rem;
+	background-color: #fff;
+	height: 14.504868rem;
+	overflow-y: scroll;
+}
+.main .content .tuijian1{
+	width: 7.343533rem;
+	height: 6.897775rem;
+	background-color: #fff;
+}
+
+.main .content .tuijian1 h2{
+	font-size: 0.333797rem;
+	line-height: 0.639777rem;
+	font-weight: normal;
+	color: #999a9c;
+	letter-spacing: 0.013908rem;
+	background-color: #f4f5f7;
+}
+.main .content .tuijian1 div{
+	font-size: 0.305981rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.main .tuijian1 div figure img{
+	width: 1.919332rem;
+	height: 1.974965rem;
+	margin-bottom: 0.220348rem;
+	margin-top: 0.163333rem;
+}
+.main .tuijian1 div figure figcaption{
+	text-align: center;
+	line-height: 0.305981rem;
+}
+.main .content .tuijian1 div{
+	font-size: 0.305981rem;
+}
+.main .content .tuijian2 {
+	width: 7.343533rem;
+}
+.main .content .tuijian2 h2{
+	font-size: 0.333797rem;
+	line-height: 0.639777rem;
+	font-weight: normal;
+	color: #999a9c;
+	letter-spacing: 0.013908rem;
+	background-color: #f4f5f7;
+}
+.main .tuijian2 div figure{
+	float: left;
+	margin-left: 0.533333rem;
+	margin-bottom: 0.586667rem;
+}
+.main .tuijian2 div figure figcaption{
+	text-align: center;
+}
+.main .tuijian2 div figure img{
+	width: 1.626667rem;
+	height: 1.626667rem;
+	margin-bottom: 0.506667rem;
+}
+
+
+/*greens*/
+.main .content .greens>img{
+	width: 6.801113rem;
+	height: 2.475661rem;
+	margin-left: 0.278164rem;
+}
+.main .content .greens div img{
+	width: 2.114047rem;
+	height: 2.114047rem;
+	margin-bottom: 0.194715rem;
+}
+.main .content .greens div {
+	/*display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;*/
+	text-align: center;
+}
+.main .content .greens div figure{
+	margin-top: 0.250348rem;
+	float: left;
+	margin-left: 0.222531rem;
+}

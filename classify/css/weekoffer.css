@@ -1,0 +1,97 @@
+body{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+}
+.week-container{
+	width:10rem;
+}
+.week_title{
+	width:10.0rem;
+	height:1.585535rem;
+	border-bottom:0.027816rem solid #6fab65;
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	background:#fff;
+	z-index:1;
+}
+.week_title p{
+	width:10.0rem;
+	height:1.585535rem;
+	font-size:0.556328rem;
+	font-weight:normal;
+	color:#868686;
+	float:left;
+	line-height: 1.585535rem;
+	text-align:center;
+	letter-spacing:0.027816rem;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.week_title a{
+	width:0.445063rem;
+	height:0.653686rem;
+	position:absolute;
+	left:0.305981rem;
+	top:0.458971rem;
+	z-index:1;
+}
+.week_title a img{
+	width:0.445063rem;
+	height:0.653686rem;
+}
+.week-line{
+	width:10rem;
+	height:0.876217rem;
+	font-size:0.445063rem;
+	color:#777777; 
+	line-height: 0.876217rem;
+	float:left;
+	margin:1.585535rem 0 0 0;
+}
+.week-line p{
+	margin:0 0 0 0.319889rem;
+}
+.week-banner{
+	width:10rem;
+	float:left;
+	margin-bottom: 1.597222rem;
+}
+.week-banner figure{
+	width:5rem;
+	height:6.05007rem;
+	float:left;
+	position:relative;
+}
+.week-banner figure .mainimg{
+	width:4.172462rem;
+	height:4.172462rem;
+	text-align:center;
+	border:0.027816rem solid #eeeeee;
+	margin:0.139082rem 0 0 0.305981rem;
+}
+.week-banner figure .cart{
+	width:0.417246rem;
+	height:0.417246rem;
+	position:absolute;
+	right:0.69541rem;
+	bottom:0.417246rem;
+}
+.week-banner figure figcaption p{
+	font-size:0.417246rem;
+	color:#696969;
+	margin:0 0 0 0.305981rem;
+}
+.week-banner figure figcaption b{
+	color:#f79a55;
+	font-size:0.305981rem;
+	margin:0 0 0 0.305981rem;
+}
+.week-banner figure figcaption span{
+	font-size:0.278164rem;
+	color:#939393;
+	text-decoration:line-through;
+	margin:0 0 0 0.166898rem;
+}

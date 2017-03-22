@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="common/css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="common/css/swiper-3.3.1.min.css"/>
+		<script src="common/js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="common/js/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular-ui-router.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ui-view></div>
+		
+		<div id="menu">
+			<section>
+				<img src="common/img/foot_home.png"/>
+                <a ui-sref="home">首页</a>
+            </section>
+            <section>
+            	<img src="common/img/foot_classify.png"/>
+                <a ui-sref="classify">分类</a>
+            </section>
+            <section>
+            	<img src="common/img/foot_cart.png"/>
+                <a ui-sref="cart">购物车</a>
+            </section>
+            <section>
+            	<img src="common/img/foot_mine.png"/>
+                <a ui-sref="mine">我的</a>
+            </section>
+		</div>
+	</body>
+	<script type="text/javascript">
+		//获取应用程序
+		var app = angular.module('myApp',['ui.router']);
+		
+	</script>
+	<script src="router.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/home.js" type="text/javascript" charset="utf-8"></script>
+	<script src="classify/js/weekoffer.js"></script>
+</html>

@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="./classify/css/weekoffer.css" />
+<div class="weekoffer">
+	<div class="week-container">
+		<div class="week_title">
+			<a ui-sref="classify"><img src="./classify/imgs/back.gif" alt=""></a>
+			<p>本周特惠产品</p>
+		</div>
+		<div class="week-line">
+			<p>本周特惠产品</p>
+		</div>
+		<div class="week-banner">
+			<figure ng-repeat="item in data">
+				<a ui-sref="detail"><img class="mainimg" src="{{ item.picUrl }}" /></a>
+				<figcaption>
+					<p>{{ item.goodsName }}</p>
+					<b>￥{{ item.price }}</b>
+				</figcaption>
+				<img class="cart" src="./classify/imgs/nav_button_shopping_nselected@3x.png" alt="" />
+			</figure>
+			
+		</div>
+
+	</div>
+
+</div>
