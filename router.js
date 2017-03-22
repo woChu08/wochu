@@ -15,7 +15,8 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 	})
 	.state('classify', {
 		url : '/classify',
-		templateUrl : './classify/classify.html'
+		templateUrl : './classify/classify.html',
+		controller : 'classifyCtrl'
 	})
 	.state('weekoffer', {
 		url : '/weekoffer',
@@ -38,10 +39,12 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 	//二级路由
 	.state('classify.classifyone', {
 		url : '/classifyone',
-		templateUrl : './classify/classifyone.html'
+		templateUrl : './classify/classifyone.html',
+		controller : 'classifyoneCtrl'
 	})
 	.state('classify.classifytwo', {
 		url : '/classifytwo',
-		templateUrl : './classify/classifytwo.html'
+		templateUrl : './classify/classifytwo.html',
+		controller : 'classifytwoCtrl'
 	})
 }])

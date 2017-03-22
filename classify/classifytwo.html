@@ -5,70 +5,10 @@
 		<div class="greens">
 			<img src="./classify/imgs/greens.jpg" />
 			<div>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
+				<figure ng-repeat="item in data.categories">
+					<img src="{{ item.iconList[0].url }}" />
 					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./classify/imgs/greens_1.jpg" />
-					<figcaption>
-						餐厅名菜
+						{{ item.name }}
 					</figcaption>
 				</figure>
 			</div>

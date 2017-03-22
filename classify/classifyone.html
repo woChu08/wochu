@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="./classify/css/classify.css"/>
 <div class="classifyone">
 	<div class="content">
-		<div class="tuijian1">
+		<!--<div class="tuijian1">
 			<h2>我厨精选</h2>
 			<div>
 				<figure>
@@ -83,6 +83,33 @@
 					</figcaption>
 				</figure>
 			</div>
+		</div>-->
+		
+		
+		
+		<div class="tuijian1">
+			<h2>{{ data[0].name }}</h2>
+			<div>
+				<figure ng-repeat="item in data[0].children">
+					<a ui-sref="weekoffer"><img src="{{ item.imgUrl }}" /></a>
+					<figcaption>
+						{{ item.name }}
+					</figcaption>
+				</figure>
+			</div>
 		</div>
+
+		<div class="tuijian2">
+			<h2>{{ data[1].name }}</h2>
+			<div>
+				<figure ng-repeat="item in data[1].children">
+					<img src="{{ item.imgUrl }}" />
+					<figcaption>
+						{{ item.name }}
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+		
 	</div>
 </div>
