@@ -66,6 +66,7 @@ body {
 	margin-bottom: 0.138888rem;
 }
 #home_goodslist .goodsimg img {
+	width: 100%;
 	height: 4.166666rem;
 }
 #home_goodslist .goodslistheader {
