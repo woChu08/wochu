@@ -116,17 +116,12 @@
 }
 .cart .cart-shop ul li>div:first-of-type{
     float: left;
-    width: 50%;
 }
 
 .cart .cart-shop ul li>div:first-of-type .cart-shop-name{
     color:#333;
     font-size: 0.361111rem;
     padding-top: 0.263889rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%;
-    white-space: nowrap;
 }
 .cart .cart-shop ul li>div:first-of-type .price{
     color:#f96d16;
@@ -169,15 +164,15 @@
 	position: fixed;
 	left: 0;
 	right: 0;
-	bottom: 1.437222rem;;
+	bottom: 1.437222rem;
 	z-index: 9999;
 }
 
-.cart .cart-shop .cart-shop-total input{
+/*.cart .cart-shop .cart-shop-total input{
     float: left;
    margin-top: 0.6rem;
    margin-right: 0.263889rem;
-}
+}*/
 
 .cart .cart-shop .cart-shop-total .cart-shop-tatal-btn{
     background: rgb(249, 109, 22);
@@ -212,8 +207,8 @@
 }
 
 .cart .cart-shop  .cart-shop-Join-in-a-single{
-     position: absolute;
-     bottom: 1.8rem;
+     position: fixed;
+     bottom: 3.2rem;
      font-size: 0.4rem;
      background: #f1c0a3;
      left: 0.8rem;
@@ -222,8 +217,8 @@
      color: white;
 }
 .cart .cart-shop .cart-shop-triangle{
-    position: absolute;
-    bottom: 1.6rem;
+    position: fixed;
+    bottom: 3.0rem;
     left: 2.5rem;
     width: 0;
     height: 0;
@@ -234,3 +229,47 @@
 }
 
 
+/*选择按钮*/
+.goods input {
+	display: none;
+}
+.goods input+label{
+	color: #ff701e;
+	float: left;
+	display: inline-block;
+	margin-top: 1.226667rem;
+	margin-right: 0.266667rem;
+	height: 0.466667rem;
+	width: 0.466667rem;
+	border-radius: 50%;
+	line-height: 0.466667rem;
+	text-align: center;
+	text-indent: 0;
+	border: 0.013333rem solid #ff701e;
+}
+.goods .clickInput{
+	background: #ff701e;
+	color: #fff;
+}
+/*全选*/
+#total{
+	display:none;
+}
+#total+label{
+	color: #ff701e;
+	float: left;
+	display: inline-block;
+	margin-top: 0.5rem;
+	margin-right: 0.266667rem;
+	height: 0.466667rem;
+	width: 0.466667rem;
+	border-radius: 50%;
+	line-height: 0.466667rem;
+	text-align: center;
+	text-indent: 0;
+	border: 0.013333rem solid #ff701e;
+}
+#total+label.clickAll{
+	background: #ff701e;
+	color: #fff;
+}

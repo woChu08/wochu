@@ -2,7 +2,7 @@ app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$stat
 	
 	$scope.showDetail = function (){
 		console.log(this.item1);
-		$state.go("detailone", {id: JSON.stringify(this.item1) })
+		$state.go("detail", {id: JSON.stringify(this.item1)})
 	}
 	
 	//轮播
@@ -10,9 +10,10 @@ app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$stat
 		var mySwiper = new Swiper('.swiper-container', {
 			initialSlide: 4,
 			direction: 'horizontal',
+			autoplayDisableOnInteraction: false,
 			loop: true,
 			autoplay: 1000,
-			speed: 3000,
+			speed: 2000,
 			// 如果需要分页器
 			pagination: '.swiper-pagination',
 		})
@@ -26,15 +27,18 @@ app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$stat
 	});
 
 	//页面数据
-	$http.get('http://api5.wochu.cn/client/v1/actsamend?parameters=%7B%22version%22%3A%2220.0.0%22%2C%22source%22%3A%22H%22%7D').success(function(data) {
+	$http.get('data.json').success(function(data) {
 		console.log(data.data.acts);
 		$scope.listData = data.data.acts;
+		console.log(data)
 	});
 	
+	//点击添加商品事件
 	$scope.addGood = function () {
 		console.log(this.item1);
-		//使用services方法保存数据
+		//保存商品数据
 		cartService.addGoods(this.item1);
+		console.log(cartService.getAllGoods());
 	}
 	
 }])

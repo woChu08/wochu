@@ -9,13 +9,13 @@
 			<p>本周特惠产品</p>
 		</div>
 		<div class="week-banner">
-			<figure ng-repeat="item in data" ng-click="showDetail()" >
-				<img class="mainimg" src="{{ item.picUrl }}" />
+			<figure ng-repeat="item in data">
+				<img class="mainimg" src="{{ item.picUrl }}" ng-click="showDetail()"/>
 				<figcaption>
 					<p>{{ item.goodsName }}</p>
 					<b>￥{{ item.price }}</b>
 				</figcaption>
-				<img class="cart" src="./classify/imgs/nav_button_shopping_nselected@3x.png" alt="" />
+				<img class="cart" src="./classify/imgs/nav_button_shopping_nselected@3x.png" alt="" ng-click="addGood()"/>
 			</figure>
 			
 		</div>

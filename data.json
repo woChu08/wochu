@@ -1,0 +1,697 @@
+{
+	"hasError": false,
+	"errorCode": "200",
+	"statusCode": "200",
+	"errorMessage": "",
+	"data": {
+		"acts": [
+			{
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/a713150a-1556-4d93-9c65-b7402eb6f136.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=20",
+						"pos": 1,
+						"$$hashKey": "object:24778"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:24765",
+				"sortIndex": 1
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/6c3d735a-3d85-43a7-9459-87888c7c5ae3.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=59",
+						"pos": 1,
+						"$$hashKey": "object:13299"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:13255",
+				"sortIndex": 1
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/f8a81739-33e0-4921-ac1d-faa1fbec268d.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=54",
+						"pos": 1,
+						"$$hashKey": "object:13313"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:13264",
+				"sortIndex": 1
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/a9134f46-a316-4ce2-b0d5-a9d11a037953.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=53",
+						"pos": 1,
+						"$$hashKey": "object:35881"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:35868",
+				"sortIndex": 1
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/6084a3b5-ea09-4bea-93b2-05290dc30ff1.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=51",
+						"pos": 1,
+						"$$hashKey": "object:13340"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:13282",
+				"sortIndex": 2
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/d608b1a1-ac1f-419d-8fca-f6bbdb452b01.jpg",
+						"type": "11",
+						"source": "",
+						"pos": 1,
+						"$$hashKey": "object:11106"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:11093",
+				"sortIndex": 2
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/f58241ff-efbf-4a04-872d-7f3770f56a78.jpg",
+						"type": "4",
+						"source": "",
+						"pos": 1,
+						"$$hashKey": "object:16845"
+					}
+				],
+				"templateType": "5",
+				"$$hashKey": "object:16829",
+				"sortIndex": 3
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/46da3059-d753-4e87-b9ae-6abc6e7f3af6.jpg",
+						"type": "9",
+						"source": "85:特色净菜套餐（2-3人）",
+						"pos": 1,
+						"$$hashKey": "object:19261"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:19235",
+				"sortIndex": 4
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/edb988e3-1e27-4e7b-8375-8847974c9968.jpg",
+						"type": "9",
+						"source": "86:特色净菜套餐（3-5人）",
+						"pos": 1,
+						"$$hashKey": "object:19274"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:19244",
+				"sortIndex": 4
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/321d8c53-259c-4140-9ce6-b2c412795ddc.jpg",
+						"type": "9",
+						"source": "84:食材自选套餐",
+						"pos": 1,
+						"$$hashKey": "object:9588"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:9559",
+				"sortIndex": 5
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/d6505f98-8af1-4621-bcd9-f52a7b46f264.jpg",
+						"type": "9",
+						"source": "83:一人食套餐",
+						"pos": 1,
+						"$$hashKey": "object:2049"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:2019",
+				"sortIndex": 7
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/5c1c9f88-e6a1-4b95-b409-cb47ccc3382b.jpg",
+						"type": "2",
+						"source": "515c247f-c2ce-458e-9a6a-b82d76f77e96",
+						"pos": 1,
+						"$$hashKey": "object:12949"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:12936",
+				"sortIndex": 8
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/ddbfdcb0-87d0-42dc-9f7e-6a0f38ec1689.jpg",
+						"type": "4",
+						"source": "",
+						"pos": 1,
+						"$$hashKey": "object:8508"
+					}
+				],
+				"templateType": "5",
+				"$$hashKey": "object:8286",
+				"sortIndex": 9
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/eac9857d-42de-4563-96c1-2df1f906f0ce.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=13",
+						"pos": 1,
+						"$$hashKey": "object:8605"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8295",
+				"sortIndex": 9
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/5f553f4f-7c5b-49a7-a3b0-cb35c3d45695.jpg",
+						"type": "5",
+						"source": "http://wmall.wochu.cn/h5/groupbuy/groupList.html?",
+						"pos": 1,
+						"$$hashKey": "object:8629"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8304",
+				"sortIndex": 9
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/78fe314a-7a73-4cb4-8980-7729e0aeaa83.jpg",
+						"type": "5",
+						"source": "http://wmall.wochu.cn/h5/groupbuy/detail.html?HID=3c58701465d5a2ecef86a6a8397e0d31fc1dc4549df0335d7f506edb5d66af16",
+						"pos": 1,
+						"$$hashKey": "object:8651"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8313",
+				"sortIndex": 9
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/9b10083b-96b3-4e70-b6d0-79de41b09aca.jpg",
+						"type": "5",
+						"source": "http://wmall.wochu.cn/h5/groupbuy/detail.html?HID=586f5b6eabc425394028c5f8462d541fb99d193b66a6542917d2b7bee52c2574",
+						"pos": 1,
+						"$$hashKey": "object:8676"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8322",
+				"sortIndex": 9
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/e0aefc21-2ab2-4ac7-b3d2-602d6738129f.jpg",
+						"type": "4",
+						"source": "",
+						"pos": 1,
+						"$$hashKey": "object:8715"
+					}
+				],
+				"templateType": "5",
+				"$$hashKey": "object:8340",
+				"sortIndex": 9
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/8c22b564-d162-4257-9e73-830dbfc6383e.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=23",
+						"pos": 1,
+						"$$hashKey": "object:8866"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8358",
+				"sortIndex": 11
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/032e95ac-66b4-4a45-86eb-5674ae9ddac0.jpg",
+						"type": "2",
+						"source": "b749ab4f-1745-467c-bef8-a671eee87346",
+						"pos": 1,
+						"$$hashKey": "object:8886",
+						"goodsName": "鲜银耳120g",
+						"price": 9.9,
+						"unit": "120g",
+						"marketPrice": 19.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/ccce7a0a-7d95-4d24-a1c1-7335a4de8a40.jpg",
+						"type": "2",
+						"source": "5c405f11-0c8d-4227-89f0-0cd6bbb64f3d",
+						"pos": 2,
+						"$$hashKey": "object:8896",
+						"goodsName": "韩国进口延世E高儿童牛奶223ml",
+						"price": 14.9,
+						"unit": "223ML",
+						"marketPrice": 14.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/f5c5b977-e315-4eb3-872b-e724817427eb.jpg",
+						"type": "2",
+						"source": "b65c9a2c-b971-4346-93a3-5ceb9fed5fc4",
+						"pos": 3,
+						"$$hashKey": "object:8906",
+						"goodsName": "超甜泰国椰妃1粒装(特价)",
+						"price": 9.9,
+						"unit": "1粒/份",
+						"marketPrice": 12.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/0dc303b7-2ece-4aca-a1f0-09db1f9afe74.jpg",
+						"type": "2",
+						"source": "5dd8d878-6457-4cbb-a071-b25f2434540b",
+						"pos": 4,
+						"$$hashKey": "object:8916",
+						"goodsName": "沈大成蛋黄肉松青团4粒（240g）",
+						"price": 24.9,
+						"unit": "4粒",
+						"marketPrice": 29.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/e5b70941-2095-4efc-bfe7-da326f0871ce.jpg",
+						"type": "2",
+						"source": "63988a6d-6e87-4bda-ba36-be2edaf1314e",
+						"pos": 5,
+						"$$hashKey": "object:8926",
+						"goodsName": "中粮家佳康精装猪蹄单只装420g",
+						"price": 29.9,
+						"unit": "420g",
+						"marketPrice": 29.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/024fc9de-c5c8-4652-a3ed-87a25be420a8.jpg",
+						"type": "2",
+						"source": "72bd3cc7-3dcd-4287-8a3d-c03d5665feb9",
+						"pos": 6,
+						"$$hashKey": "object:8936",
+						"goodsName": "鸿轩农业土鸡蛋10枚425g",
+						"price": 16.9,
+						"unit": "10枚",
+						"marketPrice": 16.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}
+				],
+				"templateType": "7",
+				"$$hashKey": "object:8367",
+				"sortIndex": 11
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/a5f00697-da2f-4fa1-9b6e-550fa6fe2796.jpg",
+						"type": "3",
+						"source": "时令和新品推荐",
+						"pos": 1,
+						"$$hashKey": "object:8973"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8376",
+				"sortIndex": 12
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/1aa1599b-84af-4376-b3f9-d8f687fbcab1.jpg",
+						"type": "2",
+						"source": "242434e2-bc77-40a4-a129-890b9b224e0e",
+						"pos": 1,
+						"$$hashKey": "object:8998",
+						"goodsName": "华英精切鸭翅根460g",
+						"price": 9.9,
+						"unit": "460g",
+						"marketPrice": 13.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/55d11d9b-7fdd-40e2-b8dd-a2837faa4f01.jpg",
+						"type": "2",
+						"source": "2d932f14-6f0f-4e2f-b6dd-3925738c8056",
+						"pos": 2,
+						"$$hashKey": "object:9008",
+						"goodsName": "我厨优选鲜鸡蛋10枚",
+						"price": 9.9,
+						"unit": "10枚",
+						"marketPrice": 9.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/77802961-7421-4696-bb46-32ee5bc40e93.jpg",
+						"type": "2",
+						"source": "eb8760b6-8f2a-4614-99e4-29a0be024108",
+						"pos": 3,
+						"$$hashKey": "object:9018",
+						"goodsName": "云南小黄姜150g",
+						"price": 3.99,
+						"unit": "150g",
+						"marketPrice": 4.5,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/c63572a1-5060-4150-b4bd-38603350fec8.jpg",
+						"type": "2",
+						"source": "c571e2ca-6241-482e-bd15-5c8ddec60bd3",
+						"pos": 4,
+						"$$hashKey": "object:9031",
+						"goodsName": "泰国山竹900g",
+						"price": 59.9,
+						"unit": "900g",
+						"marketPrice": 69.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/24be2b68-9ead-47a7-bf65-82e787a0a2c8.jpg",
+						"type": "2",
+						"source": "14c0226d-e4cd-47e1-a502-fd14e60b128c",
+						"pos": 5,
+						"$$hashKey": "object:9041",
+						"goodsName": "香蕉蛋糕",
+						"price": 39.9,
+						"unit": "792g",
+						"marketPrice": 39.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/ebc17331-8f2f-41a9-98e2-44fc4a07473d.jpg",
+						"type": "2",
+						"source": "ee6e00a3-80aa-4280-b70c-4cbfb861d4cf",
+						"pos": 6,
+						"$$hashKey": "object:9051",
+						"goodsName": "光明谷锦葵花籽油5L",
+						"price": 66.8,
+						"unit": "5L",
+						"marketPrice": 69.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}
+				],
+				"templateType": "7",
+				"$$hashKey": "object:8530",
+				"sortIndex": 13
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/93fccc2b-d666-4608-bcc7-2da0fa4341bc.jpg",
+						"type": "3",
+						"source": "本周新菜",
+						"pos": 1,
+						"$$hashKey": "object:9088"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8539",
+				"sortIndex": 14
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/1b9d7868-29e8-46c4-a9ad-4e74e928b743.jpg",
+						"type": "2",
+						"source": "1b4178a0-e4aa-42d8-8668-9d019ec685c9",
+						"pos": 1,
+						"$$hashKey": "object:9109",
+						"goodsName": "文武笋",
+						"price": 16.9,
+						"unit": "400g",
+						"marketPrice": 16.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/f91ca7ce-9f50-495d-a9ba-a1dd1b31bcf8.jpg",
+						"type": "2",
+						"source": "b79d37d8-5ab2-463f-bce8-f8eb42356579",
+						"pos": 2,
+						"$$hashKey": "object:9119",
+						"goodsName": "日式烤五花肉套餐",
+						"price": 15.9,
+						"unit": "380g",
+						"marketPrice": 25.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/c80e46a0-8cab-490a-b470-32c5b1c3247f.jpg",
+						"type": "2",
+						"source": "84375bd5-03eb-4a77-81ef-833fdf39c298",
+						"pos": 3,
+						"$$hashKey": "object:9129",
+						"goodsName": "美极鲜松茸炒肉片",
+						"price": 28.0,
+						"unit": "380g",
+						"marketPrice": 28.0,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/69fd723d-573f-49cb-85ee-8478206a3c08.jpg",
+						"type": "2",
+						"source": "b3831fab-ec85-4893-8034-26033f390f14",
+						"pos": 4,
+						"$$hashKey": "object:9139",
+						"goodsName": "臻品小炒鸡枞菌",
+						"price": 29.9,
+						"unit": "405g",
+						"marketPrice": 29.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/a2d85281-89a3-444c-9762-f84107ccffac.jpg",
+						"type": "2",
+						"source": "278e50fa-1d55-4ab2-a59a-07f00422e388",
+						"pos": 5,
+						"$$hashKey": "object:9149",
+						"goodsName": "养生猴头菇乌鸡靓汤",
+						"price": 39.9,
+						"unit": "505g",
+						"marketPrice": 39.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}, {
+						"picUrl": "http://img.i-kitchen.cn/upload/4cbee42e-5ab4-4e1b-bc65-ce5e7602f8cb.jpg",
+						"type": "2",
+						"source": "ad448465-5aee-4339-8351-b383ef1bf25d",
+						"pos": 6,
+						"$$hashKey": "object:9159",
+						"goodsName": "冬阴功",
+						"price": 29.9,
+						"unit": "792g",
+						"marketPrice": 49.9,
+						"preSale": 0,
+						"currentDate": 1490264066,
+						"deadLineDate": null
+					}
+				],
+				"templateType": "7",
+				"$$hashKey": "object:8548",
+				"sortIndex": 15
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/6c8d42c1-52e3-4115-9419-8d11325e567f.jpg",
+						"type": "4",
+						"source": "",
+						"pos": 1,
+						"$$hashKey": "object:9316"
+					}
+				],
+				"templateType": "5",
+				"$$hashKey": "object:8557",
+				"sortIndex": 15
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/ed1371e7-b9c4-41b6-bd93-ef9a3d79955d.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=2",
+						"pos": 1,
+						"$$hashKey": "object:9393"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:8593",
+				"sortIndex": 18
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/126f5600-a63e-4f74-97e7-cfb938aad38b.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=50",
+						"pos": 1,
+						"$$hashKey": "object:7869"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:7844",
+				"sortIndex": 18
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/58126daa-07bd-457e-9d40-7a79d64cacde.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=46",
+						"pos": 1,
+						"$$hashKey": "object:7883"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:7853",
+				"sortIndex": 18,
+				"isChecked": 0
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/ab5463ed-1c9e-4e2b-b373-6aae31bcf626.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=27",
+						"pos": 1,
+						"$$hashKey": "object:9415"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:9219",
+				"sortIndex": 20,
+				"isChecked": 0
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/bc83bfc8-988a-4136-88ca-cc66867fac7e.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=61",
+						"pos": 1,
+						"$$hashKey": "object:3763"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:3750",
+				"sortIndex": 20
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/207dceed-150b-4654-99fe-8b0d7ed16f3f.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=56",
+						"pos": 1,
+						"$$hashKey": "object:15210"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:15157",
+				"sortIndex": 25
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/58ce4f17-a604-481c-a5d3-aa1a5771adb1.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=18",
+						"pos": 1,
+						"$$hashKey": "object:15223"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:15166",
+				"sortIndex": 25
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/4f39b60c-0bc2-4887-9f60-25acf3b0a2b7.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=24",
+						"pos": 1,
+						"$$hashKey": "object:27928"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:27915",
+				"sortIndex": 26
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/75fbd152-8116-43bf-9438-829f3d468478.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=58",
+						"pos": 1,
+						"$$hashKey": "object:19336"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:19323",
+				"sortIndex": 28
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/6ba969eb-dc51-47e2-8fc3-f49c5b8b4397.jpg",
+						"type": "3",
+						"source": "礼盒专区",
+						"pos": 1,
+						"$$hashKey": "object:7935"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:7922",
+				"sortIndex": 29
+			}, {
+				"items": [
+					{
+						"picUrl": "http://img.i-kitchen.cn/upload/e8bdd589-fae5-424b-ada4-61a86ab97d3b.jpg",
+						"type": "1",
+						"source": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=68",
+						"pos": 1,
+						"$$hashKey": "object:3316"
+					}
+				],
+				"templateType": "4",
+				"$$hashKey": "object:3300",
+				"sortIndex": 29
+			}
+		]
+	}
+}
