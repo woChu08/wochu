@@ -1,6 +1,7 @@
 app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', function($scope, $http, $timeout, cartService) {
 	
 	
+	
 	//轮播
 	$timeout(function() {
 		var mySwiper = new Swiper('.swiper-container', {
