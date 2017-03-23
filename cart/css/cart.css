@@ -116,12 +116,17 @@
 }
 .cart .cart-shop ul li>div:first-of-type{
     float: left;
+    width: 50%;
 }
 
 .cart .cart-shop ul li>div:first-of-type .cart-shop-name{
     color:#333;
     font-size: 0.361111rem;
     padding-top: 0.263889rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
 }
 .cart .cart-shop ul li>div:first-of-type .price{
     color:#f96d16;
