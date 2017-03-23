@@ -1,5 +1,6 @@
-app.controller('homeCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
-
+app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', function($scope, $http, $timeout, cartService) {
+	
+	
 	//轮播
 	$timeout(function() {
 		var mySwiper = new Swiper('.swiper-container', {
@@ -26,6 +27,10 @@ app.controller('homeCtrl', ['$scope', '$http', '$timeout', function($scope, $htt
 		$scope.listData = data.data.acts;
 	});
 	
-	
+	$scope.addGood = function () {
+		console.log(this.item1);
+		//使用services方法保存数据
+		cartService.addGoods(this.item1);
+	}
 	
 }])

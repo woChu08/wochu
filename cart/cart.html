@@ -2,7 +2,7 @@
 <div class="cart">
 	<div class="cart-fix">
 		<div class="cart-header">
-			<a href="" class="arrow"><img src="./cart/img/cart-header-01.png" alt="" onclick="history.back()"></a>
+			<a href="" class="arrow"><img src="./cart/img/cart-header-01.png" alt=""></a>
 			<a href=""><img src="./cart/img/cart-header-02.png" alt=""><span>请填写地址</span><img src="./cart/img/cart-header-03.png" alt=""></a>
 			<a href="">编辑</a>
 		</div>
@@ -26,96 +26,31 @@
 			<span>活动</span><span>其它</span>
 		</div>
 		<ul>
-			<li>
+			<li ng-repeat="item in data">
 				<input type="CheckBox">
-				<img src="./cart/img/cart-shop-01.jpg" alt="">
+				<img src="{{ item.imgUrl }}" alt="">
 				<div>
-					<div class="cart-shop-name">梅香咸蛋（8只装）/盒</div>
-					<div class="price">￥24.9</div>
+					<div class="cart-shop-name">{{ item.goodsName }}</div>
+					<div class="price">￥{{ item.price }}</div>
 				</div>
 				<div class="buyBtn">
-					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub">
-					<span class="cart-shop-number">2</span>
-					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add">
+					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub" ng-click="delCount()">
+					<span class="cart-shop-number">{{ item.count }}</span>
+					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add" ng-click="addCount()">
 				</div>
 			</li>
-			<li>
-				<input type="CheckBox">
-				<img src="./cart/img/cart-shop-01.jpg" alt="">
-				<div>
-					<div class="cart-shop-name">梅香咸蛋（8只装）/盒</div>
-					<div class="price">￥24.9</div>
-				</div>
-				<div class="buyBtn">
-					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub">
-					<span class="cart-shop-number">13522</span>
-					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add">
-				</div>
-			</li>
-			<li>
-				<input type="CheckBox">
-				<img src="./cart/img/cart-shop-01.jpg" alt="">
-				<div>
-					<div class="cart-shop-name">梅香咸蛋（8只装）/盒</div>
-					<div class="price">￥24.9</div>
-				</div>
-				<div class="buyBtn">
-					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub">
-					<span class="cart-shop-number">13522</span>
-					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add">
-				</div>
-			</li>
-			<li>
-				<input type="CheckBox">
-				<img src="./cart/img/cart-shop-01.jpg" alt="">
-				<div>
-					<div class="cart-shop-name">梅香咸蛋（8只装）/盒</div>
-					<div class="price">￥24.9</div>
-				</div>
-				<div class="buyBtn">
-					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub">
-					<span class="cart-shop-number">13522</span>
-					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add">
-				</div>
-			</li>
-			<li>
-				<input type="CheckBox">
-				<img src="./cart/img/cart-shop-01.jpg" alt="">
-				<div>
-					<div class="cart-shop-name">梅香咸蛋（8只装）/盒</div>
-					<div class="price">￥24.9</div>
-				</div>
-				<div class="buyBtn">
-					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub">
-					<span class="cart-shop-number">13522</span>
-					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add">
-				</div>
-			</li>
-			<li>
-				<input type="CheckBox">
-				<img src="./cart/img/cart-shop-01.jpg" alt="">
-				<div>
-					<div class="cart-shop-name">梅香咸蛋（8只装）/盒</div>
-					<div class="price">￥24.9</div>
-				</div>
-				<div class="buyBtn">
-					<img src="./cart/img/cart-shop-02.png" alt="" class="cart-shop-sub">
-					<span class="cart-shop-number">13522</span>
-					<img src="./cart/img/cart-shop-03.png" alt="" class="cart-shop-add">
-				</div>
-			</li>
+
 		</ul>
-		<div class="cart-fix-bottom">
 		<div class="cart-shop-total">
-			<input type="checkbox">
+			<input type="checkbox" checked="checked">
 			<div>
-				<div><span class="total-title">合计:</span><span class="total-price">￥19.80</span></div>
+				<div><span class="total-title">合计:</span><span class="total-price">￥{{ allMoney }}</span></div>
 				<div class="cart-shop-freight">不含运费</div>
 			</div>
 			<span class="cart-shop-tatal-btn">结算</span>
+			<div class="cart-shop-Join-in-a-single">全场满99包邮 点我凑单</div>
+			<div class="cart-shop-triangle"></div>
 		</div>
-    		<div class="cart-shop-Join-in-a-single">全场满99包邮 点我凑单</div>
-    		<div class="cart-shop-triangle"></div>
-    	</div>
-	 </div>
-    </div>
+		
+	</div>
+</div>
