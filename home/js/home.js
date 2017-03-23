@@ -1,6 +1,9 @@
-app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', function($scope, $http, $timeout, cartService) {
+app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$state', function($scope, $http, $timeout, cartService,$state) {
 	
-	
+	$scope.showDetail = function (){
+		console.log(this.item1);
+		$state.go("detailone", {id: JSON.stringify(this.item1) })
+	}
 	
 	//轮播
 	$timeout(function() {

@@ -90,12 +90,8 @@ body {
 	width: 30%;
 	float: left;
 }
-#home_goodslist .goodslist ul li a {
-	display: block;
-	width: 2.777777rem;
-	height: 2.777777rem;
-}
-#home_goodslist .goodslist ul li a img {
+
+#home_goodslist .goodslist ul li img {
 	width: 2.777777rem;
 	height: 2.777777rem;
 }

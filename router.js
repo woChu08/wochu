@@ -28,6 +28,11 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 		templateUrl : './classify/detail.html',
 		controller : 'detailCtrl'
 	})
+	.state('detailone', {
+		url : '/detailone/:id',
+		templateUrl : './classify/detailone.html',
+		controller : 'detailoneCtrl'
+	})
 	.state('cart', {
 		url : '/cart',
 		templateUrl : './cart/cart.html',
