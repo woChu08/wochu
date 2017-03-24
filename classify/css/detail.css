@@ -148,3 +148,14 @@ body{
 	font-size:0.347705rem;
 	margin:0.375522rem 0 0 6.995828rem;
 }
+.detail-fotter p {
+	position: absolute;
+	top: 5px;
+	left: 60px;
+	width: 20px;
+	height: 20px;
+	background-color: orange;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+}
