@@ -6,7 +6,7 @@
 			<img src="./classify/imgs/greens.jpg" />
 			<div>
 				<figure ng-repeat="item in data.categories">
-					<img src="{{ item.iconList[0].url }}" />
+					<img src="{{ item.iconList[0].url }}" ui-sref="fruit"/>
 					<figcaption>
 						{{ item.name }}
 					</figcaption>

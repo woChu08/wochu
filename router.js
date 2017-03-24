@@ -23,6 +23,10 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 		templateUrl : './classify/weekoffer.html',
 		controller:'weekctrl'
 	})
+	.state('fruit', {
+		url : '/fruit',
+		templateUrl : './classify/fruit.html',
+	})
 	.state('detail', {
 		url : '/detail/:id',
 		templateUrl : './classify/detail.html',

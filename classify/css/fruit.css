@@ -1,0 +1,124 @@
+body{
+	width: 10.0rem;
+}
+
+/*top_bar*/
+.top_bar{
+	background-color: #fff;
+	height: 1.146667rem;
+	line-height: 1.146667rem;
+}
+.top_bar img{
+	vertical-align: middle;
+}
+.top_bar img:nth-of-type(1){
+	width: 0.2rem;
+	height: 0.4rem;
+	margin: 0 3.733333rem 0 0.32rem;
+}
+.top_bar img:nth-of-type(2){
+	width: 0.293333rem;
+	height: 0.16rem;
+	margin: 0 2.32rem 0 0.066667rem;
+}
+.top_bar img:nth-of-type(3){
+	width: 0.466667rem;
+	height: 0.466667rem;
+	
+}
+.top_bar img:nth-of-type(4){
+	width: 0.506667rem;
+	height: 0.506667rem;
+	margin-left: 0.64rem;
+}
+
+/*main*/
+.main{
+	height: 14.933333rem;
+	background-color: #f4f5f7;
+	border-top: 0.027816rem solid #eeeeee;
+}
+.main .menu{
+	float: left;
+	height: 14.804868rem;
+	overflow-y: scroll;
+	margin-right: 0.250348rem;
+	color: #9c9c9c;
+}
+.main .menu .menuClick{
+	color: #f18a3f;
+	background-image: url(../imgs/menu_click.jpg);
+	background-color: #f4f5f7;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 0.139082rem 0.556328rem;
+}
+.main .menu li{
+	height: 1.319555rem;
+	text-align: center;
+	line-height: 1.279555rem;
+	font-size: 0.38943rem;
+	width: 2.141864rem;
+	background-color: #fff;
+	border-bottom: 0.027816rem solid #ededed;
+}
+
+/*content*/
+.main .content{
+	float: left;
+	width: 7.343533rem;
+	margin-top: 0.15299rem;
+	background-color: #fff;
+	height: 14.504868rem;
+	overflow-y: scroll;
+}
+.content>h3{
+	font-size: 0.32rem;
+	height: 0.666667rem;
+	line-height: 0.666667rem;
+	font-weight: normal;
+	background-color: #f4f5f7;
+}
+.content figure{
+	position: relative;
+	height: 2.933333rem;
+	border-bottom: 0.026667rem solid #eeeeee;
+}
+.content figure>img:first-of-type{
+	width: 2.64rem;
+	height: 2.906667rem;
+	float: left;
+	margin-right: 0.293333rem;
+}
+.content figure figcaption{
+	float: left;
+}
+.content figure figcaption h3{
+	font-size: 0.373333rem;
+	font-weight: normal;
+	margin-top: 0.266667rem;
+	margin-bottom: 0.693333rem;
+}
+.content figure figcaption p:nth-of-type(1){
+	font-size: 0.306667rem;
+	margin-bottom: 0.4rem;
+	color: #c4c4c4;
+}
+.content figure figcaption p:nth-of-type(2){
+	font-size: 0.293333rem;
+}
+.content figure figcaption p:nth-of-type(2) span:first-of-type{
+	color: #fb9657;
+}
+.content figure figcaption p:nth-of-type(2) span:last-of-type{
+	color: #c4c4c4;
+	text-decoration: line-through;
+}
+.content figure>img:last-of-type{
+	width: 0.666667rem;
+	height:0.666667rem;
+	position: absolute;
+	top: 1.946667rem;
+	left: 6.373333rem;
+}
+
