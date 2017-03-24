@@ -1,10 +1,10 @@
-app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$state', function($scope, $http, $timeout, cartService,$state) {
-	
-	$scope.showDetail = function (){
+app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$state', function($scope, $http, $timeout, cartService, $state) {
+
+	$scope.showDetail = function() {
 		console.log(this.item1);
-		$state.go("detail", {id: JSON.stringify(this.item1)})
+		$state.go("detail", { id: JSON.stringify(this.item1) })
 	}
-	
+
 	//轮播
 	$timeout(function() {
 		var mySwiper = new Swiper('.swiper-container', {
@@ -32,13 +32,22 @@ app.controller('homeCtrl', ['$scope', '$http', '$timeout', 'cartService', '$stat
 		$scope.listData = data.data.acts;
 		console.log(data)
 	});
-	
+
 	//点击添加商品事件
-	$scope.addGood = function () {
+	$scope.addGood = function() {
 		console.log(this.item1);
 		//保存商品数据
 		cartService.addGoods(this.item1);
 		console.log(cartService.getAllGoods());
 	}
-	
+
+	var index = document.querySelector("#index");
+	var shopping = document.querySelector("#shopping");
+	var cart = document.querySelector("#cart");
+	var mine = document.querySelector("#mine");
+	index.src = "common/img/index_n.png";
+	shopping.src = "common/img/foot_classify.png";
+	cart.src = "common/img/foot_cart.png";
+	mine.src = "common/img/foot_mine.png";
+	index.src = "common/img/foot_home.png";
 }])

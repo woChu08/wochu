@@ -39,7 +39,8 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 	})
 	.state('mine', {
 		url : '/mine',
-		templateUrl : './mine/mine.html'
+		templateUrl : './mine/mine.html',
+		controller : 'mineCtrl'
 	})
 
 	//二级路由

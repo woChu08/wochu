@@ -16,19 +16,19 @@
 		<div ui-view></div>
 		
 		<div id="menu">
-			<section onclick="F1(this)">
-				<img src="common/img/foot_home.png" id="index"/>
+			<section>
+				<img src="common/img/index_n.png" id="index"/>
                 <a ui-sref="home">首页</a>
             </section>
-            <section onclick="F2(this)">
+            <section>
             	<img src="common/img/foot_classify.png" id="shopping"/>
                 <a ui-sref="classify">分类</a>
             </section>
-            <section onclick="F3(this)">
+            <section>
             	<img src="common/img/foot_cart.png" id="cart"/>
                 <a ui-sref="cart">购物车</a>
             </section>
-            <section onclick="F4(this)">
+            <section>
             	<img src="common/img/foot_mine.png" id="mine"/>
                 <a ui-sref="mine">我的</a>
             </section>
@@ -37,39 +37,6 @@
 	<script type="text/javascript">
 		//获取应用程序
 		var app = angular.module('myApp',['ui.router']);
-		
-		var index = document.querySelector("#index");
-		var shopping = document.querySelector("#shopping");
-		var cart = document.querySelector("#cart");
-		var mine = document.querySelector("#mine");
-		function F1 (f1) {
-			index.src = "common/img/index_n.png";
-			shopping.src = "common/img/foot_classify.png";
-			cart.src = "common/img/foot_cart.png";
-			mine.src = "common/img/foot_mine.png";
-			index.src = "common/img/foot_home.png";
-		}
-		function F2 (f2) {
-			index.src = "common/img/index_n.png";
-			shopping.src = "common/img/foot_classify.png";
-			cart.src = "common/img/foot_cart.png";
-			mine.src = "common/img/foot_mine.png";
-			shopping.src = "common/img/shopping_r.png"
-		}
-		function F3 (f3) {
-			index.src = "common/img/index_n.png";
-			shopping.src = "common/img/foot_classify.png";
-			cart.src = "common/img/foot_cart.png";
-			mine.src = "common/img/foot_mine.png";
-			cart.src = "common/img/cart_r.png";
-		}
-		function F4 (f4) {
-			index.src = "common/img/index_n.png";
-			shopping.src = "common/img/foot_classify.png";
-			cart.src = "common/img/foot_cart.png";
-			mine.src = "common/img/foot_mine.png";
-			mine.src = "common/img/my_r.png"
-		}
 		
 	</script>
 	<script src="router.js" type="text/javascript" charset="utf-8"></script>
@@ -80,4 +47,5 @@
 	<script src="classify/js/detailone.js" type="text/javascript" charset="utf-8"></script>
 	<script src="service.js" type="text/javascript" charset="utf-8"></script>
 	<script src="cart/js/cart.js" type="text/javascript" charset="utf-8"></script>
+	<script src="mine/js/mine.js" type="text/javascript" charset="utf-8"></script>
 </html>
