@@ -11,9 +11,9 @@
 	<span class="goods-price">￥ {{id.price}}</span>
 	<span class="goods-old-price">￥ {{ id.marketPrice}} </span>
 	<div class="num">
-		<a class="jia" href=""><img src="./classify/imgs/btn_add_down.png" /></a>
-		<span class="number">1</span>
-		<a class="jian" href=""><img src="./classify/imgs/btn_des_down.png" /></a>
+		<a class="jia" href="" ng-click="addGoods()"><img src="./classify/imgs/btn_add_down.png" /></a>
+		<span class="number">{{ data }}</span>
+		<a class="jian" href="" ng-click="delGoods()"><img src="./classify/imgs/btn_des_down.png" /></a>
 
 	</div>
 </div>
@@ -45,7 +45,7 @@
 	</p>
 </div>
 <div class="detail-fotter">
-	<div class="addcart">
+	<div class="addcart" ng-click="addCart()">
 		加入购物车
 	</div>
 </div>

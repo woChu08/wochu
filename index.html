@@ -15,7 +15,7 @@
 	<body>
 		<div ui-view></div>
 		
-		<div id="menu">
+		<div id="menu" ng-controller="indexCtrl">
 			<section>
 				<img src="common/img/index_n.png" id="index"/>
                 <a ui-sref="home">首页</a>
@@ -27,6 +27,7 @@
             <section>
             	<img src="common/img/foot_cart.png" id="cart"/>
                 <a ui-sref="cart">购物车</a>
+                <p>{{ num }}</p>
             </section>
             <section>
             	<img src="common/img/foot_mine.png" id="mine"/>
@@ -40,12 +41,14 @@
 		
 	</script>
 	<script src="router.js" type="text/javascript" charset="utf-8"></script>
+	<script src="service.js" type="text/javascript" charset="utf-8"></script>
 	<script src="home/js/home.js" type="text/javascript" charset="utf-8"></script>
 	<script src="classify/js/weekoffer.js"></script>
 	<script src="classify/js/classify.js" type="text/javascript" charset="utf-8"></script>
 	<script src="classify/js/detail.js" type="text/javascript" charset="utf-8"></script>
 	<script src="classify/js/detailone.js" type="text/javascript" charset="utf-8"></script>
-	<script src="service.js" type="text/javascript" charset="utf-8"></script>
+	<script src="common/js/index.js" type="text/javascript" charset="utf-8"></script>
 	<script src="cart/js/cart.js" type="text/javascript" charset="utf-8"></script>
 	<script src="mine/js/mine.js" type="text/javascript" charset="utf-8"></script>
+	<script src="classify/js/fruit.js" type="text/javascript" charset="utf-8"></script>
 </html>

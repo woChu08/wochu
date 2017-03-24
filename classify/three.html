@@ -1,0 +1,13 @@
+<link rel="stylesheet" type="text/css" href="css/fruit.css"/>
+<h3>{{ data.name }}</h3>
+			<div class="fruit clear">
+				<figure ng-repeat="item in data.goods" class="clear">
+					<img src="{{ item.picUrl }}" />
+					<figcaption>
+						<h3>{{ item.goodsName }}</h3>
+						<p>{{ item.description }}</p>
+						<p><span>￥{{ item.price }}</span><span>￥{{ item.marketPrice }}</span></p>
+					</figcaption>
+					<img src="./classify/imgs/content_add.jpg" ng-click="addGood()" />
+				</figure>
+			</div>

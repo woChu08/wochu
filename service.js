@@ -2,7 +2,6 @@
 app.service('cartService', function () {
     // 定义数组，用于保存所有购物车数据
     var arr = [];
-
     // 添加商品的方法
     this.addGoods = function (obj) {
     	if (arr.length == 0) {
@@ -26,6 +25,22 @@ app.service('cartService', function () {
         return arr;
     };
     
+    //获取数组长度
+    this.getGoodsLength = function () {
+    	return arr.length;
+    }
+    //详情添加商品方法
+    this.addDetailGood = function (obj) {
+    	var l = arr.length;
+    		for (var i = 0; i < l; i++) {
+  				if (arr[i].goodsName == obj.goodsName) {
+  					arr[i].count = obj.count;
+  					return;
+  				}
+    		}
+    	arr.push(obj);
+    }
+
     
     //删除商品的方法
     this.delGoods = function (value) {

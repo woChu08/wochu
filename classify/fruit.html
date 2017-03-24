@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="./classify/css/classify.css" />
 <div class="fruit">
 	<div class="top_bar">
-		<img src="./classify/imgs/top_bar_left.jpg" />
+		<img src="./classify/imgs/top_bar_left.jpg" ui-sref="classify"/>
 		<span>水果</span>
 		<img src="./classify/imgs/top_bar_center.jpg" />
 		<img src="./classify/imgs/top_bar_right1.jpg" />
@@ -12,131 +12,21 @@
 	<div class="main">
 		<div class="menu">
 			<ul>
-				<li class="menuClick">时令水果</li>
-				<li>热带水果</li>
-				<li>芒果</li>
-				<li>柑橘橙柚</li>
-				<li>瓜类</li>
-				<li>奇异果</li>
-				<li>苹果/梨</li>
-				<li>葡萄提子</li>
-				<li>牛油果</li>
-				<li>香蕉</li>
-				<li>橙青</li>
+				<li class="menuClick" ui-sref='fruit.one' onclick="changeLi(this)">时令水果</li>
+				<li ui-sref='fruit.two' onclick="changeLi(this)">热带水果</li>
+				<li ui-sref='fruit.three' onclick="changeLi(this)">芒果</li>
+				<li ui-sref='fruit.four' onclick="changeLi(this)">柑橘橙柚</li>
+				<li ui-sref='fruit.five' onclick="changeLi(this)">瓜类</li>
+				<li ui-sref='fruit.six' onclick="changeLi(this)">奇异果</li>
+				<li ui-sref='fruit.seven' onclick="changeLi(this)">苹果/梨</li>
+				<li ui-sref='fruit.eight' onclick="changeLi(this)">葡萄提子</li>
+				<li ui-sref='fruit.nine' onclick="changeLi(this)">牛油果</li>
+				<li ui-sref='fruit.ten' onclick="changeLi(this)">香蕉</li>
+				<li ui-sref='fruit.eleven' onclick="changeLi(this)">橙青</li>
 			</ul>
 		</div>
-		<div class="content">
-			<h3>时令水果</h3>
-			<div class="fruit">
-				<figure>
-					<img src="./classify/imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="./classify/imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="./classify/imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="./classify/imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="./classify/imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="./classify/imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="./classify/imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="./classify/imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="./classify/imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-				<figure>
-					<img src="imgs/content_fruit1.jpg" />
-					<figcaption>
-						<h3>黄色小番茄500g</h3>
-						<p>酸甜可口，硬度略高</p>
-						<p><span>￥4.99</span><span>￥9.59</span></p>
-					</figcaption>
-					<img src="imgs/content_add.jpg" />
-				</figure>
-			</div>
+		<div class="content" ui-view>
+			
 
 		</div>
 	</div>
