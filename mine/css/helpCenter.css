@@ -1,0 +1,33 @@
+.helpCenter .helpCenter-header{
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-bottom: 0.03rem solid  #55ba42;
+    text-align: center;
+    font-size: 0.6rem;
+    color:#333;
+}
+
+.helpCenter .helpCenter-header img{
+    width: 0.4rem;
+    position: absolute;
+    left: 0.44rem;
+    top:0.5rem;
+}
+
+.helpCenter .helpCenter-problem li{
+    border-bottom: 1px solid #999;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: .5rem;
+}
+.helpCenter .helpCenter-problem li a{
+
+    font-size: 0.5rem;
+    
+}
+.helpCenter .helpCenter-problem li img{
+    width: .3rem;
+    float: right;
+    margin-top: .4rem;
+    margin-right: .5rem;
+}

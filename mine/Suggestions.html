@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="./mine/css/Suggestions.css">
+<div class="Suggestions">
+    <div class="suggestions-header"><img src="./mine/img/suggestions-back-01.gif" alt="" onclick="history.back()">意见反馈</div>
+    <div class="suggesion-sort">
+        <div class="suggestion-title">
+            <span ng-class="{'on':Currentmenu=='menu1'}" ng-click="selectMenu('menu1');">产品</span>
+            <span ng-class="{'on':Currentmenu=='menu2'}" ng-click="selectMenu('menu2');">购物体验</span>
+            <span ng-class="{'on':Currentmenu=='menu3'}" ng-click="selectMenu('menu3');">配送服务</span>
+            <span ng-class="{'on':Currentmenu=='menu4'}" ng-click="selectMenu('menu4');">售后服务</span>
+            <span ng-class="{'on':Currentmenu=='menu5'}" ng-click="selectMenu('menu5');">其他</span>
+
+        </div>
+        <div class="suggestions-content">
+            <div class="choice" ng-if="Currentmenu=='menu1'">
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub1'}" ng-click="selectMenuSub('menu1Sub1');">产品种类</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub2'}" ng-click="selectMenuSub('menu1Sub2');">品质</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub3'}" ng-click="selectMenuSub('menu1Sub3');">价格</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub4'}" ng-click="selectMenuSub('menu1Sub4');">新品建议</span>
+            </div>
+
+            <div ng-if="Currentmenu=='menu2'">
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub1'}" ng-click="selectMenuSub('menu1Sub1');">账户问题</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub2'}" ng-click="selectMenuSub('menu1Sub2');">促销活动</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub3'}" ng-click="selectMenuSub('menu1Sub3');">操作问题</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub4'}" ng-click="selectMenuSub('menu1Sub4');">支付问题</span>
+            </div>
+            <div ng-if="Currentmenu=='menu3'">
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub1'}" ng-click="selectMenuSub('menu1Sub1');">配送范围</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub2'}" ng-click="selectMenuSub('menu1Sub2');">包装</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub3'}" ng-click="selectMenuSub('menu1Sub3');">准时性</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub4'}" ng-click="selectMenuSub('menu1Sub4');">服务态度</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub5'}" ng-click="selectMenuSub('menu1Sub5');">缺货/配错</span>
+            </div>
+            <div ng-if="Currentmenu=='menu4'">
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub1'}" ng-click="selectMenuSub('menu1Sub1');">退款</span>
+                <span ng-class="{'on':CurrentmenuSub=='menu1Sub2'}" ng-click="selectMenuSub('menu1Sub2');">投诉</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="suggesion-textarea">
+        <textarea  rows="10" placeholder="写下购物体会，可以帮助其他小伙伴提供参考~~"></textarea>
+    </div>
+    <input  type="button" class="suggesion-btn" value="提交">
+</div>

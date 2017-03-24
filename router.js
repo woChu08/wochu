@@ -42,6 +42,24 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 		templateUrl : './mine/mine.html',
 		controller : 'mineCtrl'
 	})
+	.state('Suggestions', {
+		url : '/Suggestions',
+		templateUrl : './mine/Suggestions.html',
+		controller:"SuggestionsCtrl"
+	})
+	.state('helpCenter', {
+		url : '/helpCenter',
+		templateUrl : './mine/helpCenter.html'
+	})
+	.state('groupPurchase', {
+		url : '/groupPurchase',
+		templateUrl : './mine/groupPurchase.html',
+		controller:"groupPurchaseCtrl"
+	})
+	.state('receivingAddress', {
+		url : '/receivingAddress',
+		templateUrl : './mine/receivingAddress.html',
+	})
 
 	//二级路由
 	.state('classify.classifyone', {

@@ -1,0 +1,86 @@
+.receivingAddress .receivingAddress-header{
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-bottom: 0.03rem solid  #55ba42;
+    text-align: center;
+    font-size: 0.6rem;
+    color:#333;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: white;
+    z-index: 2;
+}
+
+.receivingAddress .receivingAddress-header img{
+    width: 0.4rem;
+    position: absolute;
+    left: 0.44rem;
+    top:0.5rem;
+}
+.receivingAddress .receivingAddress-list{
+    padding: 0 .3rem;
+    margin-top:2rem;
+    margin-bottom:5rem;
+}
+.receivingAddress .receivingAddress-list li{
+    border-bottom: 1px solid #e5e4e4;
+
+}
+.receivingAddress .receivingAddress-list li div:last-of-type{
+    line-height: 1.3rem;
+    color: #686868;
+    font-size: .4rem;
+}
+.receivingAddress .receivingAddress-list li div:last-of-type span:first-of-type input{
+    margin-right: .1rem;
+}
+.receivingAddress .receivingAddress-list li div:last-of-type .operation{
+   float:right;
+   margin: 0 .1rem;
+}
+
+.receivingAddress .receivingAddress-list li .receivingAddress-list-title{
+    color: #333;
+    font-weight: 700;
+    font-size: .5rem;
+    width: 30%;
+    display: inline-block;
+}
+.receivingAddress .receivingAddress-list li>div:first-of-type{
+    margin-top: .4rem;
+    position: relative;
+}
+.receivingAddress .receivingAddress-list li>div:first-of-type span:last-of-type{
+    position: absolute;
+    background: rgb(244, 125, 50);
+    padding: 0 .6rem;
+    color: white;
+    border-radius: .2rem;
+    right: 0;
+    font-weight: bold;
+}
+.receivingAddress .receivingAddress-list li>div:nth-of-type(2){
+    color: #999;
+    border-bottom: 1px solid #999;
+    line-height: 1.3rem;
+    font-size: .4rem;
+}
+.receivingAddress .receivingAddress-btn{
+    text-align: center;
+    width: 10%;
+}
+.receivingAddress .receivingAddress-btn input{
+    color: white;
+    background: #f57d2f;
+    position: fixed;
+    z-index: 1200;
+    bottom:2rem;
+    width: 90%;
+    height: 1.5rem;
+    border: none;
+    font-weight: bold;
+    font-size: .5rem;
+
+
+}

@@ -1,0 +1,83 @@
+.groupPurchase .groupPurchase-header{
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-bottom: 0.03rem solid  #f8f8f8;
+    text-align: center;
+    font-size: 0.5rem;
+    color:#333;
+}
+
+.groupPurchase .groupPurchase-header img{
+    width: 0.4rem;
+    position: absolute;
+    left: 0.44rem;
+    top:0.5rem;
+}
+.groupPurchase .groupPurchase-header span{
+    position: absolute;
+    font-size: 0.4rem;
+    right: .3rem;
+}
+
+.groupPurchase .groupPurchase-nulldata img{
+    width: 100%;
+}
+
+.groupPurchase .groupPurchase-more{
+    background: #f8f8f8;
+    overflow: hidden;
+}
+.groupPurchase .groupPurchase-more h3{
+    text-align: center;
+    font-size: .3rem;
+    color: #999;
+    padding: .2rem 0;
+}
+
+.groupPurchase .groupPurchase-more img{
+    width: 3rem;
+}
+.groupPurchase .groupPurchase-more{
+    padding-left: .2rem;
+    padding-bottom: 2.5rem;
+}
+.groupPurchase .groupPurchase-more li{
+    width: 47%;
+    float: left;
+    height: 6rem;
+    margin: .13rem;
+    background: white;
+}
+.groupPurchase .groupPurchase-more .groupPurchase-name{
+    color: #333;
+    font-size: .48rem;
+    padding: 0 .3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.groupPurchase .groupPurchase-more div{
+    line-height: .8rem;
+}
+.groupPurchase .groupPurchase-more .groupPurchase-description{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #999;
+    font-size: .3rem;
+    padding: 0 .4rem;
+}
+.groupPurchase .groupPurchase-more .groupPurchase-now-price{
+   color:#ff701e;
+   padding: 0 0.1rem 0 0.3rem;
+}
+
+.groupPurchase .groupPurchase-more .groupPurchase-market-price{
+    text-decoration: line-through;
+    color: #999;
+}
+.groupPurchase .groupPurchase-more .groupPurchase-discount{
+    color:#ff701e;
+    float: right;
+    padding: 0 0.3rem;
+}

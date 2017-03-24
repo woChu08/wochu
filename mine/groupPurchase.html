@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="./mine/css/groupPurchase.css">
+<div class="groupPurchase">
+    <div class="groupPurchase-header">
+        <img src="./mine/img/suggestions-back-01.gif" alt="" onclick="history.back()">
+        我的团购<span>历史团购</span>
+    </div>
+    <div class="groupPurchase-nulldata">
+        <img src="./mine/img/groupPurchase-nulldata-01.jpg" alt="">
+    </div>
+    <div class="groupPurchase-more">
+        <h3>更多超值团购</h3>
+        <ul>
+            <li ng-repeat="item in data">
+                <img src="{{ item.picUrl }}" alt="">
+                <div class="groupPurchase-name">{{ item.goodsName }}</div>
+                <div class="groupPurchase-description">{{ item.description}} </div>
+                <div>
+                    <span class="groupPurchase-now-price">￥{{ item.price }}</span>
+                    <span class="groupPurchase-market-price">￥{{ item.marketPrice}}</span>
+                    <span class="groupPurchase-discount">7.1折</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

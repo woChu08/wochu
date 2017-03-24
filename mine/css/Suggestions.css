@@ -1,0 +1,77 @@
+.Suggestions .suggestions-header{
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-bottom: 0.03rem solid  #55ba42;
+    text-align: center;
+    font-size: 0.6rem;
+    color:#333;
+}
+
+.Suggestions .suggestions-header img{
+	width: 0.4rem;
+	position: absolute;
+    left: 0.44rem;
+    top:0.5rem;
+}
+
+.Suggestions .suggesion-sort span{
+   border:0.01rem solid #000;
+   text-align: center;
+   border-radius: 0.04rem;
+   padding: 0.2rem 0;
+   display: inline-block;
+   width: 1.8rem;
+   margin-right: .03rem;
+   margin-top: 2.5%;
+   font-size: 0.2rem;
+}
+
+@media (max-width: 320px) {
+    .Suggestions .suggesion-sort span{
+        width: 1.7rem;
+    }
+}
+
+.Suggestions .suggesion-sort span.on{
+    border-color: #f47d30;
+    color:#f47d30;
+    background: url("../img/suggestions-sure-02.png") no-repeat right bottom;
+    background-size: 0.5rem;
+}
+.Suggestions .suggestion-title,.Suggestions .suggestions-content{
+	padding-left: 1%;
+}
+
+ .Suggestions .suggestions-content>div{
+    /*display: none;*/
+}
+.Suggestions .suggestions-content>div.choice{
+    display: block;
+
+}
+
+.Suggestions .suggesion-textarea {
+    margin-top: .6rem;
+    padding: 0 .3rem;
+    width: 100%;
+    overflow: hidden;
+
+}
+.Suggestions .suggesion-textarea textarea{
+    background: #f7f2ec;
+    border: 1px solid #ccc9c9;
+    font-size: 0.216667rem;
+    display: block;
+    width: 9.3rem;
+}
+
+.Suggestions .suggesion-btn{
+    background: #f47d30;
+    color:white;
+    padding: .15rem 1.5rem;
+    position: absolute;
+    bottom:3rem;
+    right: .5rem;
+    border: none;
+
+}

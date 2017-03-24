@@ -14,6 +14,9 @@
     overflow: hidden;
 
   }
+.mine .mine-header .top img{
+    width: 100%;
+}
 .mine .mine-header .top .setUp{
 
     height: 1.386806rem;
@@ -113,6 +116,10 @@
     border-bottom: 0.026389rem solid #e5e4e4;
     background: white;
     overflow: hidden;
+}
+.mine .mine-content li a{
+    display: inline-block;
+    width: 100%;
 }
 .mine .mine-content li a>img{
     width: 0.6rem;
