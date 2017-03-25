@@ -128,5 +128,31 @@ app.controller('cartCtrl', ['$scope', 'cartService', function($scope, cartServic
 	cart.src = "common/img/foot_cart.png";
 	mine.src = "common/img/foot_mine.png";
 	cart.src = "common/img/cart_r.png";
+
+
+
+//	送货日期Tab切换
+	$scope.Currenttime = 'time3';
+	$scope.CurrenttimeSub = 'time1Sub1';
+	$scope.selectTime = function(time){
+		$scope.Currenttime= time
+		$scope.CurrenttimeSub = 'time1Sub1'
+	}
+	$scope.selectTimeSub = function(time){
+		$scope.CurrenttimeSub = time;
+	}
+
+	$scope.today=new Date();
+	$scope.tomorrow=new Date((new Date()/1000+86400)*1000);
+	$scope.AfterTomorrow=new Date((new Date()/1000+86400*2)*1000);
+	$scope.threeDays=new Date((new Date()/1000+86400*3)*1000);
+	$scope.selectTip = function(){
+		if(this.today.getHours()>="11"){
+             alert("请在11点前下单")
+		}else{
+			console.log(this.today.getHours());
+		}
+	};
+
 	
 }])

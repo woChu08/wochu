@@ -8,16 +8,16 @@
 		</div>
 		<div class="cart-send-time">
 			<ul>
-				<li class="no-disable">今天配送</li>
-				<li class="on">3/22周三</li>
-				<li>3/23周四</li>
-				<li>3/24周五</li>
+				<li  ng-class="{'no-disable':{{ today | date:'HH' }}>=11}" ng-click="selectTip();">今天配送</li>
+				<li ng-class="{'on':Currenttime=='time3'}" ng-click="selectTime('time3');">{{ tomorrow | date:'MM/dd EEE' }}</li>
+				<li ng-class="{'on':Currenttime=='time4'}" ng-click="selectTime('time4');">{{ AfterTomorrow | date:'MM/dd EEE' }}</li>
+				<li ng-class="{'on':Currenttime=='time5'}" ng-click="selectTime('time5');">{{ threeDays | date:'MM/dd EEE' }}</li>
 			</ul>
 			<ul>
-				<li class="on">17::30以前</li>
-				<li>08:00-11:30</li>
-				<li>15:30-17:30</li>
-				<li>17:30-20:30</li>
+				<li ng-class="{'onSub':CurrenttimeSub=='time1Sub1'}" ng-click="selectTimeSub('time1Sub1');">17::30以前</li>
+				<li ng-class="{'onSub':CurrenttimeSub=='time1Sub2'}" ng-click="selectTimeSub('time1Sub2');">08:00-11:30</li>
+				<li ng-class="{'onSub':CurrenttimeSub=='time1Sub3'}" ng-click="selectTimeSub('time1Sub3');">15:30-17:30</li>
+				<li ng-class="{'onSub':CurrenttimeSub=='time1Sub4'}" ng-click="selectTimeSub('time1Sub4');">17:30-20:30</li>
 			</ul>
 		</div>
 	</div>

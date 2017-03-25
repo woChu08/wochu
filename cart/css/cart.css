@@ -56,15 +56,16 @@
      border-bottom: 0.026389rem solid #f2c0a5;
 }
 
-.cart .cart-send-time ul:first-of-type li:nth-of-type(2){
+.cart .cart-send-time ul li.on{
+    color:#f96d16;
     border: 0.026389rem solid #f2c0a5;
-    border-bottom: 0.026389rem solid #f1f0ee;
+    border-bottom: none;
     margin: 0 -0.06rem;
 }
-
-.cart .cart-send-time ul .on{
+.cart .cart-send-time ul li.onSub{
     color:#f96d16;
 }
+
 .cart .cart-send-time ul .no-disable{
     color:#ccc;
 }
