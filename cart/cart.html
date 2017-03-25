@@ -8,7 +8,7 @@
 		</div>
 		<div class="cart-send-time">
 			<ul>
-				<li  ng-class="{'no-disable':{{ today | date:'HH' }}>=11}" ng-click="selectTip();">今天配送</li>
+				<li  ng-class="{'on':Currenttime=='time2'}" ng-click="selectTime('time2');">今天配送</li>
 				<li ng-class="{'on':Currenttime=='time3'}" ng-click="selectTime('time3');">{{ tomorrow | date:'MM/dd EEE' }}</li>
 				<li ng-class="{'on':Currenttime=='time4'}" ng-click="selectTime('time4');">{{ AfterTomorrow | date:'MM/dd EEE' }}</li>
 				<li ng-class="{'on':Currenttime=='time5'}" ng-click="selectTime('time5');">{{ threeDays | date:'MM/dd EEE' }}</li>
@@ -19,8 +19,11 @@
 				<li ng-class="{'onSub':CurrenttimeSub=='time1Sub3'}" ng-click="selectTimeSub('time1Sub3');">15:30-17:30</li>
 				<li ng-class="{'onSub':CurrenttimeSub=='time1Sub4'}" ng-click="selectTimeSub('time1Sub4');">17:30-20:30</li>
 			</ul>
+
 		</div>
+
 	</div>
+
 	<div class="cart-shop">
 		<div class="cart-shop-introduce">
 			<span>活动</span><span>其它</span>

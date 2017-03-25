@@ -146,13 +146,6 @@ app.controller('cartCtrl', ['$scope', 'cartService', function($scope, cartServic
 	$scope.tomorrow=new Date((new Date()/1000+86400)*1000);
 	$scope.AfterTomorrow=new Date((new Date()/1000+86400*2)*1000);
 	$scope.threeDays=new Date((new Date()/1000+86400*3)*1000);
-	$scope.selectTip = function(){
-		if(this.today.getHours()>="11"){
-             alert("请在11点前下单")
-		}else{
-			console.log(this.today.getHours());
-		}
-	};
 
 	
 }])
