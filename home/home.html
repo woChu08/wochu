@@ -22,14 +22,23 @@
 			<div class="swiper-pagination"></div>
 		</div>
 	</div>
-	<div id="home_nav" ng-repeat="item in navData">
-		<section ng-repeat="item1 in item.items">
-			<img src="{{ item1.imgUrl }}" />
+	<div id="home_nav">
+		<section ui-sref = "daymust">
+			<img src="./home/img/nav1.jpg" />
+		</section>
+		<section ui-sref = "newweek">
+			<img src="./home/img/nav2.jpg" />
+		</section>
+		<section>
+			<img src="./home/img/nav3.jpg" />
+		</section>
+		<section>
+			<img src="./home/img/nav4.jpg" />
 		</section>
 	</div>
 	<div id="home_goodslist">
 		<div ng-repeat="item in listData.slice(0, 6)">
-			<div class="goodsimg" ng-repeat="item1 in item.items">
+			<div class="goodsimg" ng-repeat="item1 in item.items" ui-sref="vegetable">
 				<img src="{{ item1.picUrl }}" />
 			</div>
 		</div>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./home/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./home/css/vegetable.css"/>
+		<script src="js/flexible.js"></script>
+	</head>
+	<body>
+		<header class="vegetablepic" id="toptop">
+			<img src="home/img/f5e39f7f-5f58-422a-8396-69d692307071.jpg" alt=""/>
+			<img src="home/img/5778cecb-a6b7-4c15-8bfc-070c9909ad1d.jpg" alt=""/>
+			<img src="home/img/16255fb3-9d26-4ef3-9d51-8a50b5192dc9.jpg"/>
+		</header>
+		<div class="vegetableList">
+			<ul>
+				<li ng-repeat="item in data.slice(8, 16)">
+					<a href=""><img src="{{ item.picUrl }}"/>
+					<div class="text">
+						<p>{{ item.goodsName }}</p>
+						<div class="txt">
+							<span>￥{{ item.price }}<i>￥{{ item.marketPrice }}</i></span>
+						</div>
+					</div>
+					<div class="addcart" ng-click="addGood()">
+						加入购物车
+					</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="family">
+			<img src="home/img/08b3317e-db70-4f4c-9163-0dd8ef2f25dd.jpg" alt="" />
+		</div>
+		<div class="vegetableList">
+			<ul>
+				<li ng-repeat="item in data1.slice(8, 16)">
+					<a href=""><img src="{{ item.picUrl }}"/>
+					<div class="text">
+						<p>{{ item.goodsName }}</p>
+						<div class="txt">
+							<span>￥{{ item.price }}<i>￥{{ item.marketPrice }}</i></span>
+						</div>
+					</div>
+					<div class="addcart" ng-click="addGood()">
+						加入购物车
+					</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="chu">
+			<img src="home/img/f09c1de7-12fa-41fd-8d06-c8f887c7456c.jpg"/>
+		</div>
+		<div class="reset" ui-sref="home">
+			<img src="home/img/ac-back.png"/>
+		</div>
+		<div id="test" class="returntop" ng-click="vegereturntop()">
+			<img src="home/img/go_top.png" alt="">
+		</div>
+		<div class="fenxiang">
+			<img src="home/img/ac-share.png" alt="">
+		</div>
+		<div class="vegecart" ui-sref="cart">
+			<img src="home/img/ac-cart.png" alt="">
+		</div>
+	
+	</body>
+</html>

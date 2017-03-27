@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./home/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./home/css/newweek.css"/>
+		<script src="js/flexible.js"></script>
+	</head>
+	<body>
+		<header class="vegetablepic" id="toptop">
+			<img src="home/img/88c2e401-62a4-4653-9335-5917587e854c.jpg"/>
+			<img src="home/img/9f942e58-37e4-4f1c-832b-d5fad9c5fad4.jpg"/>
+			<img src="home/img/2f1529c7-bb80-414f-8645-db961e816797.jpg"/>
+			<img src="home/img/17d43f04-413b-417b-87cc-13f6fd75d139.jpg"/>
+			<img src="home/img/4f587eca-33ba-4131-8052-7316f3556492.jpg"/>
+			<img src="home/img/df60d8a5-bcda-4ad6-a4dd-459f2ddda7b9.jpg"/>
+		</header>
+		<div class="vegetableList">
+			<ul>
+				<li ng-repeat="item in data.slice(0, 16)">
+					<a href=""><img src="{{ item.picUrl }}"/>
+					<div class="text">
+						<p>{{ item.goodsName }}</p>
+						<div class="txt">
+							<span>￥{{ item.price }}<i>￥{{ item.marketPrice }}</i></span>
+						</div>
+					</div>
+					<div class="addcart" ng-click="addGood()">
+						加入购物车
+					</div>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		
+		
+		<div class="reset" ui-sref = "home">
+			<img src="home/img/ac-back.png"/>
+		</div>
+		<div id="test" class="returntop" ng-click="newreturntop()">
+			<img src="home/img/go_top.png" alt="">
+		</div>
+		<div class="fenxiang">
+			<img src="home/img/ac-share.png" alt="">
+		</div>
+		<div class="vegecart" ui-sref="cart">
+			<img src="home/img/ac-cart.png" alt="">
+		</div>
+		<div class="wo">
+			<img src="home/img/12e2e1ba-03f0-4c59-989f-661c1a2361b7.jpg"/>
+		</div>
+	</body>
+</html>

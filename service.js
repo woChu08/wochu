@@ -72,7 +72,23 @@ app.service('cartService', function () {
     	return money;
     }
     
-    
+    //回到顶部
+    this.returntop = function(){
+			
+			var timer = null;
+			
+			cancelAnimationFrame(timer);
+			
+			timer = requestAnimationFrame(function fn(){
+				var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+				if(oTop > 0){
+					document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
+					timer = requestAnimationFrame(fn);
+				}else{
+					cancelAnimationFrame(timer);
+				} 
+			})
+		};
     
     
     

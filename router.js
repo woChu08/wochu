@@ -60,6 +60,21 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 		url : '/receivingAddress',
 		templateUrl : './mine/receivingAddress.html',
 	})
+	.state('daymust',{
+		url : '/daymust',
+		templateUrl : './home/daymust.html',
+		controller : 'dayctrl'
+	})
+	.state('newweek',{
+		url : '/newweek',
+		templateUrl : './home/newweek.html',
+		controller : 'newctrl'
+	})
+	.state('vegetable',{
+		url : '/vegetable',
+		templateUrl : './home/vegetable.html',
+		controller : 'vegectrl'
+	})
 
 	//二级路由
 	.state('classify.classifyone', {
@@ -129,3 +144,15 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 		controller : 'elevenCtrl'
 	})
 }])
+//用于home中的daymust、newweek等文件下面的导航隐藏
+app.run(['$window', '$rootScope' , function ($window, $rootScope) {
+	$rootScope.$on('$locationChangeSuccess', function () {
+			//如果浏览器地址包含 market（闪送超市）那么就隐藏footer
+			if ($window.location.href.indexOf('daymust') != -1 || $window.location.href.indexOf('newweek') != -1 || $window.location.href.indexOf('vegetable') != -1) {
+				$rootScope.rootIsFooterShow = false;
+			} else {
+				$rootScope.rootIsFooterShow = true;
+			}
+		});
+	
+}])	

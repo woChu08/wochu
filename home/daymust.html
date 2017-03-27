@@ -1,0 +1,59 @@
+		<link rel="stylesheet" type="text/css" href="./home/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./home/css/daymust.css"/>
+		<script src="js/flexible.js"></script>
+		<header class="vegetablepic" id="toptop">
+			<img src="./home/img/731d9591-8af5-4cc1-8403-c146d659b594.jpg" alt=""/>
+			<img src="./home/img/560b5bb0-9b22-41a8-837f-19c18600f75a.jpg"/>
+		</header>
+		<div class="vegetableList">
+			<ul>
+				<li ng-repeat="item in data.slice(0, 10)">
+					<a href=""><img src="{{ item.picUrl }}"/>
+					<div class="text">
+						<p>{{ item.goodsName }}</p>
+						<div class="txt">
+							<span>￥{{ item.price }}<i>￥{{ item.marketPrice }}</i></span>
+						</div>
+					</div>
+					<div class="addcart" ng-click="addGood()">
+						加入购物车
+					</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="family">
+			<img src="./home/img/9ea50ea6-4d53-4dbd-b72a-3aac7581aa84.jpg" alt="" />
+		</div>
+		<div class="vegetableList">
+			<ul>
+				<li ng-repeat="item in data1.slice(0, 16)">
+					<a href=""><img src="{{ item.picUrl }}"/>
+					<div class="text">
+						<p>{{ item.goodsName }}</p>
+						<div class="txt">
+							<span>￥{{ item.price }}<i>￥{{ item.marketPrice }}</i></span>
+						</div>
+					</div>
+					<div class="addcart" ng-click="addGood()">
+						加入购物车
+					</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="reset" ui-sref="home">
+			<img src="./home/img/ac-back.png"/>
+		</div>
+		<div id="test" class="returntop" ng-click="dayreturntop()">
+			<img src="./home/img/go_top.png" alt="">
+		</div>
+		<div class="fenxiang">
+			<img src="./home/img/ac-share.png" alt="">
+		</div>
+		<div class="vegecart" ui-sref="cart">
+			<img src="./home/img/ac-cart.png" alt="">
+		</div>
+		
+		
+

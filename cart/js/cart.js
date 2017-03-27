@@ -3,7 +3,6 @@ app.controller('cartCtrl', ['$scope', 'cartService', function($scope, cartServic
 	var totalInput = document.querySelector('#total');
 	
 	$scope.data = cartService.getAllGoods();
-	console.log($scope.data)
 
 	$scope.sub = function() {
 		if(totalInput.checked == true) {

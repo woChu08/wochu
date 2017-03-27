@@ -15,7 +15,7 @@
 	<body>
 		<div ui-view></div>
 		
-		<div id="menu" ng-controller="indexCtrl">
+		<div id="menu" ng-controller="indexCtrl" ng-show="rootIsFooterShow">
 			<section>
 				<img src="common/img/index_n.png" id="index"/>
                 <a ui-sref="home">首页</a>
@@ -52,4 +52,7 @@
 	<script src="classify/js/fruit.js" type="text/javascript" charset="utf-8"></script>
 	<script src="mine/js/groupPurchase.js"></script>
 	<script src="mine/js/Suggestions.js"></script>
+	<script src="home/js/daymust.js"></script>
+	<script src="home/js/newweek.js"></script>
+	<script src="home/js/vegetable.js"></script>
 </html>

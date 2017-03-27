@@ -1,0 +1,140 @@
+body{
+	box-sizing: border-box;
+}
+.vegetablepic{
+	width:10.0rem;
+	font-size:0;
+}
+.vegetablepic img{
+	width:10.0rem;
+	height:17.333333rem;
+}
+.vegetablepic img:first-of-type{
+	width:10.0rem;
+	height:9.533333rem;
+}
+.vegetableList{
+	width:10.0rem;
+
+}
+.vegetableList ul{
+	width:10.0rem;
+}
+.vegetableList li{
+	width:5.0rem;
+	height:8.0rem;
+	background:#ffe2ca;
+	float:left;
+}
+.vegetableList li a{
+	display:inline-block;
+	width:4.48rem;
+	margin:0 0 0 0.346667rem;
+	background:#fff;
+}
+.vegetableList li:nth-child(even) a{
+	margin:0 0 0 0.173333rem;
+}
+.vegetableList li a img{
+ 	width:4.48rem;
+ 	height:4.48rem;
+ 	vertical-align:top; 
+ 	display:block;
+}
+.vegetableList li p{
+	height:1.146667rem;
+	text-align:center;
+	line-height:0.573333rem;
+	font-size:0.373333rem;
+	color:#0c0c0c;
+}
+.vegetableList li .txt{
+	text-align:center;
+	height:0.56rem;
+	font-family:"微软雅黑";
+	font-size:0.4rem;
+}
+.vegetableList li .txt span{
+	color:#c5331e;
+	font-weight:bolder;
+	
+}
+.vegetableList li .txt i{
+	margin:0 0 0 0.133333rem;
+	color:#a3a3a3;
+	text-decoration:line-through;
+	font-size:0.346667rem;
+}
+.vegetableList li .addcart{
+	width:2.933333rem;
+	height:0.8rem;
+	background:#ffe316;
+	text-align:center;
+	line-height:0.8rem;
+	border-radius:0.4rem;
+	margin:0.293333rem  0.773333rem;
+	font-family:"微软雅黑";
+	font-size:0.373333rem;
+}
+.family{
+	width:10.0rem;
+	height:2.226667rem;
+}
+.family img{
+	width:10.0rem;
+	height:2.226667rem;
+	float:left;
+}
+.wo{
+	width:10.0rem;
+	height:2.226667rem;
+}
+.wo img{
+	width:10.0rem;
+	height:2.093333rem;
+	float:left;
+}
+.reset{
+	width:1.12rem;
+	height:1.12rem;
+	position:fixed;
+	left:0.133333rem;
+	top:1.466667rem;
+}
+.reset img{
+	width:1.12rem;
+	height:1.12rem;
+}
+.returntop{
+	width:1.12rem;
+	height:1.12rem;
+	position:fixed;
+	right:0.133333rem;
+	bottom:0.16rem;
+}
+.returntop img{
+	width:1.12rem;
+	height:1.12rem;
+}
+.fenxiang{
+	width:1.12rem;
+	height:1.12rem;
+	position:fixed;
+	right:1.666667rem;
+	top:1.466667rem;
+}
+.fenxiang img{
+	width:1.12rem;
+	height:1.12rem;
+}
+.vegecart{
+	width:1.12rem;
+	height:1.12rem;
+	position:fixed;
+	right:0.133333rem;
+	top:1.466667rem;
+}
+.vegecart img{
+	width:1.12rem;
+	height:1.12rem;
+}
