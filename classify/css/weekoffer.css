@@ -95,3 +95,11 @@ body{
 	text-decoration:line-through;
 	margin:0 0 0 0.166898rem;
 }
+.u-flyer {
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 50px;
+	position: fixed;
+	z-index: 9999;
+}
