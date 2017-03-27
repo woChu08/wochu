@@ -1,4 +1,4 @@
-app.controller('cartCtrl', ['$scope', 'cartService', function($scope, cartService) {
+app.controller('cartCtrl', ['$scope', 'cartService', '$rootScope',function($scope, cartService, $rootScope) {
 	var total = document.querySelector('.total-price');
 	var totalInput = document.querySelector('#total');
 	
@@ -16,6 +16,7 @@ app.controller('cartCtrl', ['$scope', 'cartService', function($scope, cartServic
 		} 
 			
 			var totalmo = 0;
+			$rootScope.num = cartService.getGoodsLength();
 		if(this.item.count == 1) {
 			cartService.delGoods(this.item.goodsName);
 			var Labels = document.querySelectorAll('.goods label');
@@ -24,10 +25,12 @@ app.controller('cartCtrl', ['$scope', 'cartService', function($scope, cartServic
 				Labels[i].removeAttribute('class');
 			}
 			total.innerHTML = '￥' + totalmo;
+			$rootScope.num = cartService.getGoodsLength();
 		}else{
 			this.item.count--;
 			totalmo = showMoney().toFixed(2);
 			total.innerHTML = '￥' + totalmo;
+			$rootScope.num = cartService.getGoodsLength();
 		}
 	};
 
