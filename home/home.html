@@ -75,12 +75,12 @@
 		<div class="goodslist" ng-repeat="item in listData.slice(19, 20)">
 			<ul>
 				<li ng-repeat="item1 in item.items">
-					<img src="{{ item1.picUrl }}"  ng-click="showDetail()"/>
+					<img src="{{ item1.picUrl }}" ng-click="showDetail()"/>
 					<p class="goodslist_name">{{ item1.goodsName }}</p>
 					<div class="goodslist_price">
 						<p class="goodslist_markerprice">￥{{ item1.marketPrice }}</p>
 						<p class="goodslist_nowprice">￥{{ item1.price }}</p>
-						<p class="goodslist_addcart" ng-click="addGood()"><img src="./home/img/addcart.png" /></p>
+						<p class="goodslist_addcart button addcar" ng-click="addGood()"><img src="./home/img/addcart.png" /></p>
 					</div>
 				</li>
 			</ul>
@@ -99,7 +99,7 @@
 					<div class="goodslist_price">
 						<p class="goodslist_markerprice">￥{{ item1.marketPrice }}</p>
 						<p class="goodslist_nowprice">￥{{ item1.price }}</p>
-						<p class="goodslist_addcart" ng-click="addGood()"><img src="./home/img/addcart.png" /></p>
+						<p class="goodslist_addcart button addcar" ng-click="addGood()"><img src="./home/img/addcart.png" /></p>
 					</div>
 				</li>
 			</ul>
@@ -118,7 +118,7 @@
 					<div class="goodslist_price">
 						<p class="goodslist_markerprice">￥{{ item1.marketPrice }}</p>
 						<p class="goodslist_nowprice">￥{{ item1.price }}</p>
-						<p class="goodslist_addcart" ng-click="addGood()"><img src="./home/img/addcart.png" /></p>
+						<p class="goodslist_addcart button addcar" ng-click="addGood()"><img src="./home/img/addcart.png" /></p>
 					</div>
 				</li>
 			</ul>
